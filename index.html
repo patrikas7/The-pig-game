@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The game of Pig</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="gameStyle.css">
+</head>
+<body>
+    
+    <div class="container custom-container">
+        <div class="row text-center custom-row rounded shadow">
+            <div class="col-md custom-col-1" id="playerOneColumn">
+                <div class="columnWrapper">
+                    <h1 class="playerName">Player 1</h1>
+                    <p class="playerScore" id="playerOneTotalPoints">0</p>
+                    <div class="current rounded mx-auto">
+                        <p class="currentScoreLaber mt-2">Current</p>
+                        <p class="currentScore" id="playerOneCurrent">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <button class="new-game rounded mt-5 btn" id="new-game">🔁 NEW GAME</button><br>
+                <img src="Dice-1.png" alt="dice" id="dice"><br>
+                <button class="btn roll-dice rounded" id="roll-dice">🎲 ROLL DICE</button><br>
+                <button class="btn hold rounded mt-5" id="hold">⛔ HOLD</button>
+            </div>
+            <div class="col-md custom-col-2" id="playerTwoColumn">
+                <div class="columnWrapper">
+                <h1 class="playerName">Player 2</h1>
+                <p class="playerScore" id="playerTwoTotalPoints">0</p>
+                <div class="current rounded mx-auto">
+                    <p class="currentScoreLaber mt-2">Current</p>
+                    <p class="currentScore" id="playerTwoCurrent">0</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="gameScript.js"></script>
+</html>

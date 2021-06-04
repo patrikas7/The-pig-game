@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(140deg,rgba(223, 70, 65, 0.843) 0%, rgb(41, 14, 102) 100%);
+    height: 100vh;
+    font-family: "Lucida Console", "Courier New", monospace;;
+}
+
+.custom-container{
+    margin-top: 100px;
+}
+
+.custom-row{
+    height: 800px;
+}
+
+.playerScore{
+    font-size: 80px;
+}
+
+.columnWrapper{
+    margin-top: 100px 
+}
+
+.custom-col-1{
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.custom-col-2{
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.current{
+    color: white;
+    margin-top: 200px;
+    font-size: 30px;
+    width: 50%;
+    background-color: rgba(223, 70, 65, 0.6);
+}
+
+.playerScore{
+    color: rgba(223, 70, 65)
+}
+
+.new-game{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 25px;
+}
+
+.roll-dice{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 25px;
+}
+
+#dice{
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+.hold{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 25px;
+}
